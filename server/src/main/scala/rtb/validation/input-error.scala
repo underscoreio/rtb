@@ -1,4 +1,4 @@
-package doodlebot
+package rtb
 package validation
 
 import cats.Monoid

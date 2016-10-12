@@ -1,4 +1,4 @@
-package doodlebot
+package rtb
 
 import cats.data.ValidatedNel
 import cats.std.list._

@@ -1,4 +1,4 @@
-package doodlebot
+package rtb
 package action
 
 import cats.data.{NonEmptyList,ValidatedNel,Xor}

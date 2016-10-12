@@ -1,4 +1,4 @@
-package doodlebot
+package rtb
 package endpoint
 
 import io.finch._

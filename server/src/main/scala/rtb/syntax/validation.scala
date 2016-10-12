@@ -1,4 +1,4 @@
-package doodlebot
+package rtb
 package syntax
 
 import cats.data.{Validated,ValidatedNel}
