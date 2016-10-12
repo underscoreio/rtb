@@ -19,4 +19,9 @@ object model {
   case object Mobile350x200 extends Dimensions
   case object Mobile728x90 extends Dimensions
   final case class NonStandard(width: Int, height: Int) extends Dimensions
+
+
+  sealed trait BidResponse
+  final case class Bid(bidId: String, amount: Double, adMarkup: String, macro: String) extends BidResponse
+  final case class NoBid(bidId: String) extends BidResponse
 }
